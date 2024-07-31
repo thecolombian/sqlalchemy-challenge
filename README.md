@@ -28,6 +28,9 @@ The project is divided into several tasks, each with specific requirements:
 - Plot the results using the DataFrame `plot` method.
 - Print summary statistics for the precipitation data using Pandas.
 
+- ![12 Months of Precipitation Data](images/12monthsofprecipitationdata.png)
+
+
 ### Station Analysis
 - Design a query to find the number of stations in the dataset.
 - Design a query to list stations and observation counts in descending order and find the most active station (`USC00519281`).
