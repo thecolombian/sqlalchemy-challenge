@@ -43,6 +43,7 @@ The project is divided into several tasks, each with specific requirements:
 - Design a query to get the previous 12 months of temperature observation data filtered by the station with the most observations.
 - Save the query results to a Pandas DataFrame.
 - Plot a histogram with `bins=12` for the last year of data using `tobs` as the column to count.
+- ![Station Analysis Home Pge](images/Welcome-to-the-SQL-Alchemy-APP-AP-WEB-SITE.png)
 
 ### API SQLite Connection & Landing Page
 To achieve full points:
