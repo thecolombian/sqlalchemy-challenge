@@ -30,6 +30,10 @@ The project is divided into several tasks, each with specific requirements:
 
 - ![12 Months of Precipitation Data](images/12monthsofprecipitationdata.png)
 
+### Query this station's last 12 months of temperature observation data and plot the results as a histogram.
+- ![12 months of temperature observation data](images/tempetureObservationsATStation-USC00519281.png)
+
+### 
 
 ### Station Analysis
 - Design a query to find the number of stations in the dataset.
@@ -56,6 +60,7 @@ To achieve full points:
 - A `tobs` route that:
   - Returns JSON data for the most active station (`USC00519281`).
   - Only returns data for the last year.
+  -![API Static Routes](images/results_for_start-date.png)
 
 ### API Dynamic Route
 - A start route that:
@@ -65,3 +70,8 @@ To achieve full points:
   - Accepts the start and end dates as URL parameters.
   - Returns min, max, and average temperatures from the given start to the end date.
 
+- ![API Static Route and API Dynamic Route(images/Welcome-to-the-SQL-Alchemy-APP-AP-WEB-SITE.png)
+
+- ### Most ACTIVE station by row count
+
+  ![Most Active Stations by Row Count](images/most_active_stations_by_count.png)
