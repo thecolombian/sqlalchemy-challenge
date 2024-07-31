@@ -33,7 +33,8 @@ The project is divided into several tasks, each with specific requirements:
 ### Query this station's last 12 months of temperature observation data and plot the results as a histogram.
 - ![12 months of temperature observation data](images/tempetureObservationsATStation-USC00519281.png)
 
-### 
+### Use Pandas to calculate the summary statistics for the precipitation data
+
 
 ### Station Analysis
 - Design a query to find the number of stations in the dataset.
@@ -50,7 +51,8 @@ To achieve full points:
 - Correctly save references to the tables in the SQLite file (`measurement` and `station`).
 - Correctly create and bind the session between the Python app and database.
 - Display the available routes on the landing page.
-
+- ![API Static Route and API Dynamic Route(images/Welcome-to-the-SQL-Alchemy-APP-AP-WEB-SITE.png)
+  
 ### API Static Routes
 - A precipitation route that:
   - Returns JSON with the date as the key and precipitation as the value.
@@ -70,7 +72,6 @@ To achieve full points:
   - Accepts the start and end dates as URL parameters.
   - Returns min, max, and average temperatures from the given start to the end date.
 
-- ![API Static Route and API Dynamic Route(images/Welcome-to-the-SQL-Alchemy-APP-AP-WEB-SITE.png)
 
 - ### Most ACTIVE station by row count
 
