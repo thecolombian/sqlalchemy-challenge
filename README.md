@@ -34,7 +34,7 @@ The project is divided into several tasks, each with specific requirements:
 - ![12 months of temperature observation data](images/tempetureObservationsATStation-USC00519281.png)
 
 ### Use Pandas to calculate the summary statistics for the precipitation data
-
+-![summary statistics for the precipitation data](images/UsePandastocalculatethesummarystatisticsfortheprecipitationdata.png)
 
 ### Station Analysis
 - Design a query to find the number of stations in the dataset.
